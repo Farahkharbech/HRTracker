@@ -1,0 +1,228 @@
+
+body {
+    margin: 0;
+    background-image: url("https://governmenttechnologyinsider.com/wp-content/uploads/2021/10/shutterstock_1355237459.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+  }
+img{
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    height: 280px;
+    width: 250px;
+    border-radius: 20px;
+  }
+.input{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    margin: 20px;
+  }
+.updateInp{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin: 20px;
+  }
+.newDepartement{
+    width: 400px;
+    height: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    border-width: 1px;
+    margin-bottom: 1%;
+    margin-left: 100px;
+  }
+.otherType{
+padding: 4.5px 19px;
+border-radius: 20px;
+background-color: rgb(243, 22, 99);
+color: black;
+font-size: 20px;
+height: 37px;
+margin: 5px;
+  }
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    gap: 10px;
+  }
+.compName{
+    display: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5%;
+    color: rgb(204, 230, 237);
+    font-size: 80px;
+    font-style: italic;
+}
+.Slogan{
+    display: center;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    margin-left: 13%;
+    color: rgb(192, 72, 92);
+    font-size: 20px;
+    font-style: italic;
+}
+.depNames{ 
+    display: center;
+    text-align: center;
+    color: rgb(192, 72, 92);
+    font-size: 40px;
+}
+.all-Dep {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.boxDep{
+    background: transparent;
+    border: 1px solid #d1ccc0; 
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(236, 239, 240, 0.1);  
+    text-align: center;
+    color: white;  
+}
+.dep{
+    background: linear-gradient(white,rgb(111, 166, 169));
+    border: 1px solid #d1ccc0; 
+    margin: 13px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(240, 236, 236, 0.1); 
+    font-size: 25px;
+    color: black;
+}
+.boxSup{
+    background: transparent;
+    border: 3px solid #d1ccc0; 
+    margin: 50px;
+    padding: 15px;
+    width: 260px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(236, 239, 240, 0.1);  
+    text-align: center;
+}
+
+.sup{
+        background: linear-gradient(white,rgb(111, 166, 169));
+        border: 1px solid #d1ccc0; 
+        margin: 13px;
+        padding: 12px;
+        width: 200px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(240, 236, 236, 0.1); 
+}
+.name{
+    font-style: italic;
+    font-size: 20px;
+    color: darkred;
+}
+.job{
+    font-style: italic;
+    font-size: 15px;
+
+}
+.but{
+padding: 5.5px 30px;
+border-radius: 100px;
+background-color:white;
+color: black;
+font-size: 17px;
+margin : 10px;
+margin-top: 20px;
+align-items: center;
+margin-left: 53px;
+
+}     
+.but:hover {
+ background-color: rgb(244, 68, 97);
+ box-shadow: 0 0 20px #6fc5ff50;
+ transform: scale(1.1);
+ color: black;
+}   
+.but:active {
+background : linear-gradient(rgb(209, 238, 239)176, 176, 242);
+box-shadow: none;
+}
+
+.boxDetails{
+    background: transparent;
+    border: 3px solid #d1ccc0; 
+    margin: 50px;
+    padding: 15px;
+    width: 450px;
+    height: 700px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgba(236, 239, 240, 0.1);  
+
+}
+.Details{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+.Rating{
+    display: flex;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 90px;
+
+}
+.numbers{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 60px;
+    background-color: transparent;
+    font-size: 30px;
+    display: contents;
+    color: white;
+    align-content: center;
+  }
+.SupNum{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 60px;
+    background-color: transparent;
+    font-size: 25px;
+    display: contents;
+    color: rgb(10, 10, 44);
+    align-content: center;   
+}
+.HomePageButtons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    gap: 5px;
+}
+.cloudinay{
+    color: white;
+}
